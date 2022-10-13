@@ -1,0 +1,8 @@
+datenow= date +%d-%m-%Y-%R
+echo $datenow
+last | wc -l > "/home/Debian/Documents/Shell.exe/Job8/number_connection-$(date +%d-%m-%Y-%R).txt"
+tar -cvf "/home/Debian/Documents/Shell.exe/Job8/Backup/number_connection-$(date +%d-%m-%Y-%R).tar" /home/debian/Documents/shell.exe/Job8/number_connection.txt
+datenow= date +%d-%m-%Y-%R
+echo $datenow
+last | wc -l > "/home/debian/Documents/Shell.exe/Job8/number_connection-$(date +%d-%m-%Y-%R).txt"
+tar -cvf "/home/debian/Documents/Shell.exe/Job8/Backup/number_connection-$(date +%d-%m-%Y-%R).tar" /home/debian/Documents/shell.exe/Job8/number_connection.txt
